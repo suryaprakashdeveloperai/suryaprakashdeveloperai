@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int count =1;
+    int n;
+    int result =1;
+    printf("\nEnter the value for N: ");
+    scanf("%d",&n);
+    while(count<=n){
+        result = result * count;
+        count++;
+    }printf("Factorial : %d",result);
+}
